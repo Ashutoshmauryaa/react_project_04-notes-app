@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { AppBar, Toolbar, Typography, colors } from "@mui/material";
+import { AppBar, Toolbar, Typography } from "@mui/material";
 import { Logo } from "../logo/Logo";
 
 const Header: FC = () => {
