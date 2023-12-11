@@ -57,7 +57,7 @@ const CreateNote: FC<ICreateNoteProps> = ({ addNote }) => {
   };
 
   const onNoteCreate = () => {
-    if (note.title == "" && note.text == "") {
+    if (note.title === "" && note.text === "") {
       setError("All fields are mendatory");
       return;
     }
